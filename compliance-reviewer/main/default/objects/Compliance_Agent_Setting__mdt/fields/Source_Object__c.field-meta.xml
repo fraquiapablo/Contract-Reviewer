@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source_Object__c</fullName>
+    <description>Object where the Compliance Agent component is placed..</description>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Object where the Compliance Agent component is placed.</inlineHelpText>
+    <label>Source Object</label>
+    <referenceTo>EntityDefinition</referenceTo>
+    <relationshipLabel>Compliance_Agent_Settings</relationshipLabel>
+    <relationshipName>Compliance_Agent_Settings</relationshipName>
+    <required>true</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

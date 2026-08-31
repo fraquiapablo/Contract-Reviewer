@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Content_Document_Id__c</fullName>
+    <description>ContentDocumentId of the contract file analyzed. Points to the File itself (all versions); combine with Content_Version_Id__c to identify the exact version reviewed.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Reference to the contract file that was reviewed.</inlineHelpText>
+    <label>Content Document Id</label>
+    <length>18</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

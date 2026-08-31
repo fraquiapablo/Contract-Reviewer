@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Context_Object__c</fullName>
+    <description>Optional object that connects this Context to the Setting&apos;s Source or Target. When set, Apex resolves the sibling Compliance Agent Context (same Setting) whose Context Object matches this value, and uses its records as the anchor for this Context&apos;s Relationship Field.</description>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Leave blank if this object relates directly to the Source or Target object. Otherwise, select the intermediate object (there must be exactly one other Context under this Setting configured for it).</inlineHelpText>
+    <label>Parent Context Object</label>
+    <referenceTo>EntityDefinition</referenceTo>
+    <relationshipLabel>Compliance_Agent_Contexts1</relationshipLabel>
+    <relationshipName>Compliance_Agent_Contexts1</relationshipName>
+    <required>false</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

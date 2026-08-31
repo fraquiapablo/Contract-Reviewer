@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Raw_Response__c</fullName>
+    <description>Full unmodified JSON response returned by the AI model for this run, before mapping into the structured fields above. Kept for troubleshooting/audit.</description>
+    <inlineHelpText>Technical record of the AI&apos;s full response — for admin/audit use.</inlineHelpText>
+    <label>Raw Response</label>
+    <length>130000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

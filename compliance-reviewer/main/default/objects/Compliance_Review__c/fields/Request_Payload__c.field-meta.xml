@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Payload__c</fullName>
+    <description>Exact evidenceJson payload sent to the Prompt Template at the time of analysis. Preserved for audit, since underlying Salesforce data may change after the review runs.</description>
+    <inlineHelpText>Technical record of the data sent for analysis — for admin/audit use.</inlineHelpText>
+    <label>Request Payload</label>
+    <length>130000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

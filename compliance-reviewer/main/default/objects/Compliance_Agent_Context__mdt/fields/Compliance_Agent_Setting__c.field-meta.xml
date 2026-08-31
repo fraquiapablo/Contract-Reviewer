@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Compliance_Agent_Setting__c</fullName>
+    <description>References the parent Compliance Agent Setting that owns this context configuration.</description>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Select the Compliance Agent Setting to which this context record belongs.</inlineHelpText>
+    <label>Compliance Agent Setting</label>
+    <referenceTo>Compliance_Agent_Setting__mdt</referenceTo>
+    <relationshipLabel>Compliance Agent Contexts</relationshipLabel>
+    <relationshipName>Compliance_Agent_Contexts</relationshipName>
+    <required>true</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

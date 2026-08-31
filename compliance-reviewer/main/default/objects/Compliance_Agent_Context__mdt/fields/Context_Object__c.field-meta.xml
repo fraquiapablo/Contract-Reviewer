@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Context_Object__c</fullName>
+    <description>Specifies the Salesforce object that provides data to the compliance review context.</description>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Select the Salesforce object whose field set will be used to build the context provided to the Compliance Agent.</inlineHelpText>
+    <label>Context Object</label>
+    <referenceTo>EntityDefinition</referenceTo>
+    <relationshipLabel>Compliance_Agent_Contexts</relationshipLabel>
+    <relationshipName>Compliance_Agent_Contexts</relationshipName>
+    <required>true</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

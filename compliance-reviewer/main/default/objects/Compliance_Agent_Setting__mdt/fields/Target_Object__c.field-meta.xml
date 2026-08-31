@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Target_Object__c</fullName>
+    <description>Container object for the contract to be evaluated.</description>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Container object for the contract to be evaluated.</inlineHelpText>
+    <label>Target Object</label>
+    <referenceTo>EntityDefinition</referenceTo>
+    <relationshipLabel>Compliance_Agent_Settings1</relationshipLabel>
+    <relationshipName>Compliance_Agent_Settings1</relationshipName>
+    <required>true</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Filter_Criteria__c</fullName>
+    <description>Optional additional SOQL WHERE condition applied when querying this Context&apos;s records, in addition to the Relationship Field match. Must reference fields on the Context Object (or its direct relationships).</description>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Example: RecordType.DeveloperName = &apos;Enterprise_Deal&apos; or StageName != &apos;Closed Lost&apos;. Leave blank to include all related records.</inlineHelpText>
+    <label>Filter Criteria</label>
+    <required>false</required>
+    <type>TextArea</type>
+</CustomField>

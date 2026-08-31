@@ -1,0 +1,12 @@
+{
+  "orgName": "Compliance Reviewer Package Build",
+  "edition": "Developer",
+  "features": [
+    "Einstein1AIPlatform"
+  ],
+  "settings": {
+    "einsteinGptSettings": {
+      "enableEinsteinGptPlatform": true
+    }
+  }
+}

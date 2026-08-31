@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>File_Title__c</fullName>
+    <description>Title of the ContentVersion analyzed, denormalized here for display without an extra query/lookup.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Name of the contract file that was reviewed.</inlineHelpText>
+    <label>File Title</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

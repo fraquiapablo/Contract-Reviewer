@@ -1,0 +1,25 @@
+﻿# Salesforce CLI local state
+.sf/
+.sfdx/
+
+# Node dependencies
+node_modules/
+
+# Test / coverage output
+coverage/
+.nyc_output/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE local settings
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
