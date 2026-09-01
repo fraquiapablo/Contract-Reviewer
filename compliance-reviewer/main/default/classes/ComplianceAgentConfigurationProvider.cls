@@ -48,6 +48,7 @@ public virtual inherited sharing class ComplianceAgentConfigurationProvider {
             FROM Compliance_Agent_Setting__mdt
             WHERE Source_Object__r.QualifiedApiName = :sourceObjectApiName
             AND Active__c = true
+            WITH USER_MODE
         ];
 
         List<SettingConfig> configs = new List<SettingConfig>();
@@ -79,6 +80,7 @@ public virtual inherited sharing class ComplianceAgentConfigurationProvider {
                    Parent_Context_Object__r.QualifiedApiName
             FROM Compliance_Agent_Context__mdt
             WHERE Compliance_Agent_Setting__c = :settingMetadataRecordId
+            WITH USER_MODE
         ];
 
         List<ContextConfig> configs = new List<ContextConfig>();

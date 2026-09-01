@@ -4,8 +4,9 @@
       "path": "compliance-reviewer",
       "default": true,
       "package": "Compliance Reviewer",
-      "versionName": "Compliance Reviewer 1.0",
-      "versionNumber": "1.0.0.NEXT",
+      "versionName": "Compliance Reviewer 1.0.1",
+      "versionNumber": "1.0.1.NEXT",
+      "ancestorVersion": "HIGHEST",
       "versionDescription": "",
       "definitionFile": "config/compliance-reviewer-package-def.json",
       "packageMetadataAccess": {
@@ -27,6 +28,8 @@
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "67.0",
   "packageAliases": {
-    "Compliance Reviewer": "0HoUo00000003ifKAA"
+    "Compliance Reviewer": "0HoUo00000003ifKAA",
+    "Compliance Reviewer@1.0.0-1": "04tUo000000avm9IAA",
+    "Compliance Reviewer@1.0.1-1": "04tUo000000b8bJIAQ"
   }
 }
